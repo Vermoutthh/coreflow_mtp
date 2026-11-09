@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "provenance": "Manual deployment example, NOT a measured throughput prediction",
+  "config": {
+    "model": "/root/nfs/models/Qwen3.5-9B",
+    "gpus_per_instance": 1,
+    "speculative_tokens": 3
+  },
+  "allocation": {
+    "Plan": {
+      "instances": [{"num_instances": 1, "context_lower": 0, "context_upper": 8192}]
+    },
+    "Task": {
+      "instances": [{"num_instances": 1, "context_lower": 0, "context_upper": 8192}]
+    }
+  }
+}

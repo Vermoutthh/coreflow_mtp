@@ -1,0 +1,11 @@
+{
+  "batches": [1, 2, 4, 8],
+  "contexts": [128, 512, 1024, 2048, 4096, 8192, 12288, 16384],
+  "queries": [16, 32, 64, 128],
+  "mixed_batches": [2, 4, 8],
+  "long_contexts": [4096, 8192, 12288, 16384],
+  "short_contexts": [1000, 2000, 3000],
+  "baseline_batches": [4, 8, 12, 16],
+  "non_attention_batches": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512],
+  "swap_tokens": [128, 512, 1024, 2048]
+}
